@@ -14,6 +14,7 @@ interface Tourist {
 
     void visit(SmallLagoon smallLagoon);
 
+    void visit(UnderGroundRiver underGroundRiver);
 
     default void visit(Locations locations) {
         System.out.println("nabisita ko na lahat bahay niyo na lang hindi! ");
